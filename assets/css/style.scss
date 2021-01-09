@@ -14,9 +14,7 @@
     background-color: #00A09A;
     background-image: linear-gradient(120deg, #00304C, #00A09A);
 }
-.profile {
-    color: none
-    table td{
-        border: none;
-    }
+.profile td, 
+.profile th {
+    border:none;
 }
