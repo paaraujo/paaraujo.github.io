@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![Me](circular.jpg)
+![Me](circular.jpg=250px)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
