@@ -34,4 +34,10 @@
     border-width: 1px;
     border-radius: 0.3rem;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  &:hover {
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+    background-color: rgba(0, 160, 154, 0.8);
+    border-color: $header-bg-color;
+  }
 }
