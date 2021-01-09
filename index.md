@@ -15,6 +15,7 @@ layout: default
         <a href="https://scholar.google.com.br/citations?user=wan1l_IAAAAJ" class="btn btn-colored" target="_blank">Google Scholar</a>
         <a href="https://github.com/paaraujo" class="btn btn-colored" target="_blank">Github</a>
         <a href="https://twitter.com/prma" class="btn btn-colored" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/paaraujo/" class="btn btn-colored" target="_blank">LinkedIn</a>
       </td>
     </tr> 
   </table>
