@@ -10,7 +10,9 @@ layout: default
       </td>
       <td>
         <b>Paulo Ricardo Marques de Araujo</b><br>
-        Teste      
+        Entrepreneur and PhD Student<br><br>
+        <a href="mailto:20prmd@queensu.ca">20prmd@queensu.ca</a>
+        <a href="https://www.google.com/"><button>Next</button></a>
       </td>
     </tr> 
   </table>
