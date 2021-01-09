@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![Me](circular.jpg =250x)
+<img src="circular.jpg" width="200" height="200">
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
