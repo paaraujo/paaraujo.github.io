@@ -8,17 +8,10 @@ layout: default
       <img src="circular.jpg" width="200" height="200">
     </td>
     <td>
-      <img src="circular.jpg" width="200" height="200">
+      Paulo Ricardo Marques de Araujo
+      Teste      
     </td>
   </tr> 
-  <tr>
-    <td>
-      <img src="circular.jpg" width="200" height="200">
-    </td>
-    <td>
-      <img src="circular.jpg" width="200" height="200">
-    </td>
-  </tr>
 </table>
 
 
