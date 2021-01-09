@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<table border=none>
+<table border=none bordercolor="white">
   <tr>
     <td>
       <img src="circular.jpg" width="200" height="200">
