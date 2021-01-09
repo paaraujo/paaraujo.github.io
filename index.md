@@ -6,7 +6,7 @@ layout: default
   <table>
     <tr>
       <td>
-        <img src="circular.jpg" width="200" height="200">
+        <img src="circular.jpg" width="200" height="200" class="img">
       </td>
       <td>
         <b>Paulo Ricardo Marques de Araujo</b><br>
