@@ -9,13 +9,22 @@ layout: default
         <img src="circular.jpg" width="200" height="200">
       </td>
       <td>
-        <h3>Paulo Ricardo Marques de Araujo</b3><br>
+        <b>Paulo Ricardo Marques de Araujo</b><br>
         Teste      
       </td>
     </tr> 
   </table>
 </div>
 
+* * *
+I am a ...
+
+* * *
+
+# Lastest News
+
+
+* * *
 
 
 
