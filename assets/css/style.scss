@@ -1,6 +1,9 @@
 ---
 ---
-
+.profile td, 
+.profile th {
+    border:none;
+}
 @import 'jekyll-theme-cayman';
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     margin-top: 2rem;
@@ -14,7 +17,4 @@
     background-color: #00A09A;
     background-image: linear-gradient(120deg, #00304C, #00A09A);
 }
-.profile td, 
-.profile th {
-    border:none;
-}
+
