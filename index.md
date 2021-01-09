@@ -2,17 +2,19 @@
 layout: default
 ---
 
-<table class="profile-table">
-  <tr>
-    <td>
-      <img src="circular.jpg" width="200" height="200">
-    </td>
-    <td>
-      Paulo Ricardo Marques de Araujo<br>
-      Teste      
-    </td>
-  </tr> 
-</table>
+<div class="profile-table">
+  <table>
+    <tr>
+      <td>
+        <img src="circular.jpg" width="200" height="200">
+      </td>
+      <td>
+        Paulo Ricardo Marques de Araujo<br>
+        Teste      
+      </td>
+    </tr> 
+  </table>
+</div>
 
 
 
