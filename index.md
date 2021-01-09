@@ -11,8 +11,8 @@ layout: default
       <td>
         <b>Paulo Ricardo Marques de Araujo</b><br>
         Entrepreneur and PhD Student<br><br>
-        <a href="mailto:20prmd@queensu.ca">20prmd@queensu.ca</a>
-        <a href="https://www.google.com/"><button>Next</button></a>
+        <a href="mailto:20prmd@queensu.ca">20prmd@queensu.ca</a><br>
+        <a href="https://scholar.google.com.br/citations?user=wan1l_IAAAAJ" class="btn">Google Scholar</a>
       </td>
     </tr> 
   </table>
