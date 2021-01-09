@@ -9,7 +9,7 @@ layout: default
         <img src="circular.jpg" width="200" height="200">
       </td>
       <td>
-        Paulo Ricardo Marques de Araujo<br>
+        ## Paulo Ricardo Marques de Araujo<br>
         Teste      
       </td>
     </tr> 
