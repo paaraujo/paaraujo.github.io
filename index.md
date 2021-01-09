@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<table class="profile-table">
+<table class="main-content profile-table">
   <tr>
     <td>
       <img src="circular.jpg" width="200" height="200">
