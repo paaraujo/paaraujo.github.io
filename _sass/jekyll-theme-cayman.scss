@@ -348,25 +348,25 @@ a {
     background-color: $hr-border-color;
     border: 0;
   }
-}
+  
+  .profile-table {
+    table {
+      display: block;
+      width: 100%;
+      overflow: auto;
+      word-break: normal;
+      word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+      -webkit-overflow-scrolling: touch;
 
-.profile-table {
-  table {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    word-break: normal;
-    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
-    -webkit-overflow-scrolling: touch;
+      th {
+        font-weight: bold;
+      }
 
-    th {
-      font-weight: bold;
-    }
-
-    th,
-    td {
-      padding: 0.5rem 1rem;
-      border: none;
+      th,
+      td {
+        padding: 0.5rem 1rem;
+        border: none;
+      }
     }
   }
 }
