@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="profile-table">
-  <table>
+  <table class="center">
     <tr>
       <td>
         <img src="circular.jpg" class="responsive">
