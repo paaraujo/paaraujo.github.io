@@ -21,10 +21,7 @@ layout: default
   </table>
 </div>
 
-* * *
-I am a ...
-
-* * *
+> I am 
 
 # Lastest News
 
