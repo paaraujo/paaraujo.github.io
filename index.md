@@ -26,7 +26,7 @@ layout: default
 # Lastest News
 <div class="profile-table">
   <table class="center">
-    <tr>
+    <tr valign=TOP>
       <td>
         <span>&#8226;</span>
       </td>
