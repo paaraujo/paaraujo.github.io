@@ -28,10 +28,7 @@ layout: default
   <table class="center">
     <tr valign=TOP>
       <td>
-        <span>&#8226;</span>
-      </td>
-      <td>
-        [03/11/2020]
+        03/11/2020
       </td>
       <td>
         <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
