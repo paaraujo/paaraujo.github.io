@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+</html>
 
 <div class="profile-table">
   <table class="center">
@@ -24,8 +29,10 @@ layout: default
 > I am 
 
 # Lastest News
+* * *
 <div class="profile-table">
   <table class="center">
+    <!-- Início de atualização -->
     <tr valign=TOP>
       <td>
         03/11/2020
@@ -34,7 +41,19 @@ layout: default
         <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
         <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available. 
       </td>
-    </tr> 
+    </tr>
+    <!-- Fim de atualização -->
+    <!-- Início de atualização -->
+    <tr valign=TOP>
+      <td>
+        03/11/2020
+      </td>
+      <td>
+        <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
+        <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available. 
+      </td>
+    </tr>
+    <!-- Fim de atualização -->
   </table>
 </div>
 
