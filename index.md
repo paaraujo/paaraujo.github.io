@@ -41,6 +41,14 @@ layout: default
 
 # Selected papers
 * * *
+<div id="b-placeholder">
+</div>
+
+<script>
+  $(function(){
+    $("#b-placeholder").load("papers.md");
+  });
+</script>
 
 # Professional activities
 * * *
