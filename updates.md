@@ -3,6 +3,7 @@
     <!-- Início de atualização -->
     <tr valign=TOP>
       <td>
+        03/11/2020
       </td>
       <td>
         <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
