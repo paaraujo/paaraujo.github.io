@@ -3,11 +3,10 @@
     <!-- Início de atualização -->
     <tr valign=TOP>
       <td>
-        03/11/2020
       </td>
       <td>
-        Lins, R. G., de Araujo, P. R. M., & Corazzim, M. (2020). In-process machine vision monitoring of tool wear for Cyber-Physical Production Systems. 
-        <em>Robotics and Computer-Integrated Manufacturing</em>, 61, 101859. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">[Paper]</a>.
+        <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
+        <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available. 
       </td>
     </tr>
     <!-- Fim de atualização -->
