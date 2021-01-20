@@ -41,12 +41,12 @@ layout: default
 
 # Selected papers
 * * *
-<div id="b-placeholder">
+<div id="c-placeholder">
 </div>
 
 <script>
   $(function(){
-    $("#b-placeholder").load("papers.md");
+    $("#c-placeholder").load("papers.md");
   });
 </script>
 
