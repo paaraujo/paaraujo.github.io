@@ -6,32 +6,19 @@
         <h1>2020</h1>
       </td>
       <td>
-        <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
-        <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available. 
+        Lins, R. G., de Araujo, P. R. M., & Corazzim, M. (2020). In-process machine vision monitoring of tool wear for Cyber-Physical Production Systems. 
+        <em>Robotics and Computer-Integrated Manufacturing</em>, 61, 101859. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">[Paper]</a>
       </td>
     </tr>
     <!-- Fim de ano -->
     <!-- Papers no mesmo ano -->
     <tr valign=TOP>
       <td>
-        03/11/2020
+        <h1>2019</h1>
       </td>
       <td>
-        <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
-        <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available. 
+        Lins, R. G., Guerreiro, B., De Araujo, P. R. M., & Schmitt, R. (2019). In-Process Tool Wear Measurement System Based on Image Analysis for CNC Drilling Machines. <em>IEEE Transactions on Instrumentation and Measurement</em>.
       </td>
     </tr>
-    <!-- Início de atualização -->
-    <tr valign=TOP>
-      <td>
-        01/09/2020
-      </td>
-      <td>
-        I have started my PhD at <a href="https://queensu.ca" target="_blank">Queen's University</a> advised by 
-        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Sidney&lname=Givigi" target="_blank">Sidney Givigi</a> and 
-        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Aboelmagd%20&lname=Noureldin" target="_blank">Aboelmagd Noureldin</a>
-      </td>
-    </tr>
-    <!-- Fim de atualização -->
   </table>
 </div>
