@@ -1,5 +1,5 @@
 Below you will find some of my professional references, please, access my <a href="https://www.linkedin.com/in/paaraujo/" target="_blank">LinkedIn</a> profile for more references.
-<hr>
+<br>
 
 <div class="profile-table">
   <table class="center">
