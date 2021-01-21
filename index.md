@@ -26,7 +26,7 @@ layout: default
   </table>
 </div>
 
-> I am 
+> Hi, my name is Paulo. I am an brazilian entrepreneur and researcher. Most of the time I worked for different companies selling and supporting <a href="https://www.plm.automation.siemens.com/global/en/our-story/glossary/digital-manufacturing/13157" target="_blank">digital manufacturing</a> technologies. After completing wo undergraduate courses, I did my Master in Engineering and Innovation Management, where I started to research different <a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank">computer vision</a> topics. My interest is in computer vision applied to autonomous vehicles and industrial applications.
 
 # Lastest News
 * * *
