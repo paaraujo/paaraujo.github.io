@@ -1,4 +1,4 @@
-Below you will find some of my professional references, please, access my LinkedIn profile for a complete more references.
+Below you will find some of my professional references, please, access my LinkedIn profile for more references.
 
 * * *
 
