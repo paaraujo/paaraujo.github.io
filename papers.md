@@ -1,5 +1,5 @@
 Below you will find some of my publications, please, access my Google Scholar profile for a complete list of references.
-* * *
+
 
 <div class="profile-table">
   <table class="center">
