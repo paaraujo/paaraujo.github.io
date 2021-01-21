@@ -1,5 +1,5 @@
 Below you will find some of my publications, please, access my <a href="https://scholar.google.com.br/citations?user=wan1l_IAAAAJ" target="_blank">Google Scholar</a> profile for a complete list of references.
-
+<hr>
 
 <div class="profile-table">
   <table class="center">
