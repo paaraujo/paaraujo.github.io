@@ -1,27 +1,48 @@
+Below you will find some of my professional references, please, access my LinkedIn profile for a complete more references.
+
+* * *
+
 <div class="profile-table">
   <table class="center">
-    <!-- Início de atualização -->
+    <!-- Início de experiência -->
     <tr valign=TOP>
       <td>
-        03/11/2020
+        01/2018 - actual
       </td>
       <td>
-        <b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
-        <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available. 
+        <b>Head of Innovation</b> at <em>Visium Labs Solutions</em>. 
       </td>
     </tr>
-    <!-- Fim de atualização -->
-    <!-- Início de atualização -->
+    <!-- Fim de experiência -->
+    <!-- Início de experiência -->
     <tr valign=TOP>
       <td>
-        01/09/2020
+        08/2019 - 08/2020
       </td>
       <td>
-        I have started my PhD at <a href="https://queensu.ca" target="_blank">Queen's University</a> advised by 
-        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Sidney&lname=Givigi" target="_blank">Sidney Givigi</a> and 
-        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Aboelmagd%20&lname=Noureldin" target="_blank">Aboelmagd Noureldin</a>
+        <b>Technical Director</b> at <em>SmartPLM</em>. 
       </td>
     </tr>
-    <!-- Fim de atualização -->
+    <!-- Fim de experiência -->
+    <!-- Início de experiência -->
+    <tr valign=TOP>
+      <td>
+        01/2016 - 12/2017
+      </td>
+      <td>
+        <b>Head of Innovation</b> at <em>Linesys cPDM Services</em>. 
+      </td>
+    </tr>
+    <!-- Fim de experiência -->
+    <!-- Início de experiência -->
+    <tr valign=TOP>
+      <td>
+        12/2010 - 05/2014
+      </td>
+      <td>
+        <b>Presales Solutions Consultant</b> at <em>Siemens Industry Software</em>. 
+      </td>
+    </tr>
+    <!-- Fim de experiência -->
   </table>
 </div>
