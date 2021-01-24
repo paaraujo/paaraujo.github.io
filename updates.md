@@ -2,21 +2,11 @@
   <div class="item">
     <div id="timeline">
       <div>
-        <section class="year">
-          <h3>2007</h3>
+          <h3>2020</h3>
           <section>
+            <h4>November</h4>
             <ul>
-              <li>Satoshi Nakamoto began working on the Bitcoin concept.</li>
-            </ul>
-          </section>     
-        </section>
-        <section class="year">
-          <h3>2008</h3>
-          <section>
-            <h4>August</h4>
-            <ul>
-              <li>Neal Kin, Vladimir Oksman, and Charles Bry file an application for an encryption patent application.</li>
-              <li>Bitcoin.org was registered at <a href="https://anonymousspeech.com/">anonymousspeech.com</a>.</li>
+              <li><b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available.</li>
             </ul>
           </section>
           <section>
