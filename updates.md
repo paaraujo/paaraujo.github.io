@@ -8,16 +8,13 @@
           <section>
             <h4>November</h4>
             <ul>
-              <li>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis is accepted to
-        Robotics and Computer-Integrated Manufacturing.</li>
+              <li>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis is accepted.</li>
             </ul>
           </section>
           <section>
             <h4>September</h4>
             <ul>
-              <li>I have started my PhD at <a href="https://queensu.ca" target="_blank">Queen's University</a> advised by 
-        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Sidney&lname=Givigi" target="_blank">Sidney Givigi</a> and 
-        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Aboelmagd%20&lname=Noureldin" target="_blank">Aboelmagd Noureldin</a>.</li>
+              <li>I have started my PhD.</li>
             </ul>
           </section>
         </section>
