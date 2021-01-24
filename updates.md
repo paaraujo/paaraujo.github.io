@@ -70,7 +70,7 @@
           <section>
             <h4>November</h4>
             <ul>
-              <li><b>Smart Setup - Computation visual system to reduce setup time in CNC vertical machining centers</b> is accepted to an oral presentation at the
+              <li><b>Smart Setup - Computational visual system to reduce setup time in CNC vertical machining centers</b> is accepted to an oral presentation at the
         <em>XXXVIII Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2017)</em>.</li>
             </ul>
           </section>
