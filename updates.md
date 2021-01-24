@@ -8,7 +8,7 @@
           <section>
             <h4>November</h4>
             <ul>
-              <li><b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
+              <li>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis is accepted to
         <em>Robotics and Computer-Integrated Manufacturing</em>.</li>
             </ul>
           </section>
