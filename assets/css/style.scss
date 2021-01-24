@@ -100,13 +100,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #79838c;
 }
-a {
-  color: #50585f;
-  text-decoration: none;
-  &:hover {
-    color: #383e44;
-  }
-}
+//a {
+//  color: #50585f;
+//  text-decoration: none;
+//  &:hover {
+//    color: #383e44;
+//  }
+//}
 
 div.container {
   display: flex;
@@ -150,7 +150,7 @@ div.item {
     position: -webkit-sticky;
     position: sticky;
     top: 5rem;
-    color: #888;
+    color: $header-bg-color;
     margin: 0;
     font: {
       size: 1em;
