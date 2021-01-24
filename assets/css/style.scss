@@ -222,23 +222,8 @@ div.item {
         &:not(:first-child) {
           margin-top: .5rem;
         }
-        span.price {
-          color: mediumturquoise;
-          font-weight: 500;
-        }
       }
     }
   }
 }
 }
-
-#price {
-  display: inline;
-}
-
-svg {
-  border: 3px solid white;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-}
-
