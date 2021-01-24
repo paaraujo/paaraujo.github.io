@@ -2,6 +2,7 @@
   <div class="item">
     <div id="timeline">
       <div>
+        <section class="year">
           <h3>2020</h3>
           <section>
             <h4>November</h4>
