@@ -24,7 +24,7 @@
           <section>
             <h4>January</h4>
             <ul>
-              <li>Block 0 is established.</li>
+              <li>Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.</li>
               <li>Version 0.1 of Bitcoin is released.</li>
               <li>The first Bitcoin transaction.</li>
             </ul>
