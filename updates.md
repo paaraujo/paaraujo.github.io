@@ -8,24 +8,7 @@
           <section>
             <h4>November</h4>
             <ul>
-              <li>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis is accepted.</li>
-            </ul>
-          </section>
-          <section>
-            <h4>September</h4>
-            <ul>
-              <li>I have started my PhD.</li>
-            </ul>
-          </section>
-        </section>
-        <!-- Novo ano -->
-        <section class="year">
-          <h3>2009</h3>
-          <section>
-            <h4>January</h4>
-            <ul>
-              <li>Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.Block 0 is established.</li>
-              <li>Version 0.1 of Bitcoin is released.</li>
+              <li>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis is accepted to Robotics and Computer-Integrated Manufacturing.</li>
               <li>The first Bitcoin transaction.</li>
             </ul>
           </section>
