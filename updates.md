@@ -7,19 +7,21 @@
           <section>
             <h4>November</h4>
             <ul>
-              <li><b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available.</li>
+              <li><b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
+        <em>Robotics and Computer-Integrated Manufacturing</em>. <a href="https://doi.org/10.1016/j.rcim.2020.102090" target="_blank">Paper</a> is now available.</li>
             </ul>
           </section>
           <section>
             <h4>October</h4>
             <ul>
-              <li>Nakamoto describes the Bitcoin currency and solves the problem of double spending.</li>
+              <li>An exchange rate is established.</li>
             </ul>
           </section>
           <section>
-            <h4>November</h4>
+            <h4>December</h4>
             <ul>
-              <li>The Bitcoin project is registered on <a href="https://sourceforge.net/">SourceForge.net</a>.</li>
+              <li>Version 0.2 is released.</li>
+              <li>The difficulty increases.</li>
             </ul>
           </section>
         </section>
