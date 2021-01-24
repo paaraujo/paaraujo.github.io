@@ -77,7 +77,7 @@
           <section>
             <h4>January</h4>
             <ul>
-              <li>I have started my PhD at <a href="https://www.ufabc.edu.br/" target="_blank">UFABC</a> advised by 
+              <li>I have started my Master at <a href="https://www.ufabc.edu.br/" target="_blank">UFABC</a> advised by 
         <a href="https://www.ufabc.edu.br/ensino/docentes/romulo-goncalves-lins" target="_blank">Romulo Gonçalves Lins</a> and 
         <a href="https://www.ufabc.edu.br/ensino/docentes/alexandre-acacio-de-andrade" target="_blank">Alexandre Acácio de Andrade</a>.</li>
             </ul>
