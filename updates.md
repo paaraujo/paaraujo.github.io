@@ -2,6 +2,7 @@
   <div class="item">
     <div id="timeline">
       <div>
+        <!-- Novo ano -->
         <section class="year">
           <h3>2020</h3>
           <section>
@@ -12,19 +13,15 @@
             </ul>
           </section>
           <section>
-            <h4>October</h4>
+            <h4>September</h4>
             <ul>
-              <li>An exchange rate is established.</li>
-            </ul>
-          </section>
-          <section>
-            <h4>December</h4>
-            <ul>
-              <li>Version 0.2 is released.</li>
-              <li>The difficulty increases.</li>
+              <li>I have started my PhD at <a href="https://queensu.ca" target="_blank">Queen's University</a> advised by 
+        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Sidney&lname=Givigi" target="_blank">Sidney Givigi</a> and 
+        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Aboelmagd%20&lname=Noureldin" target="_blank">Aboelmagd Noureldin</a>.</li>
             </ul>
           </section>
         </section>
+        <!-- Novo ano -->
         <section class="year">
           <h3>2009</h3>
           <section>
