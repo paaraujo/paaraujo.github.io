@@ -52,7 +52,7 @@
           <section>
             <h4>November</h4>
             <ul>
-              <li>I defended my Master in Engineering and Innovation Management dissertation at UFABC.</li>
+              <li>I defended my Master dissertation in Engineering and Innovation Management at UFABC.</li>
               <li><b>A Visual Computing Approach for Automatic Workpiece Referencing in Machining Centers</b> is accepted to an oral presentation at the
         <em>2018 13th IEEE International Conference on Industry Applications INDUSCON 2018</em>.</li>
             </ul>
