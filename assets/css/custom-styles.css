@@ -59,8 +59,8 @@ div.item {
   }
   section {
     position: relative;
-    padding-bottom: 0.5em;
-    margin-bottom: 4.4em;
+    padding-bottom: 1.25em;
+    margin-bottom: 2.2em;
     h4 {
       position: absolute;
       bottom: 0;
