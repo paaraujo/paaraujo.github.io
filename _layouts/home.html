@@ -20,11 +20,10 @@ Hi, my name is Paulo. I am a Brazilian entrepreneur and researcher. I have spent
         {% for year in site.data.updates %}
             <section class="year">
               <h3>{{ year[0] }}</h3>
+              {% if forloop.first == false %}
                 {% for month in year[1] %}
                   <section>
-                    {% if forloop.first == false %}
                       <h4>{{ month[0] }}</h4>
-                    {% endif %}
                     <ul>
                     {% for update in month[1] %}
                         <li>{{ update }}</li>
@@ -32,6 +31,7 @@ Hi, my name is Paulo. I am a Brazilian entrepreneur and researcher. I have spent
                     </ul>
                   </section>
                 {% endfor %}
+              {% endif %}
             </section>
         {% endfor %}
       </div>
