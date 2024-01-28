@@ -20,8 +20,8 @@ author: Paulo Ricardo Marques de Araujo
 ###############################################
 
 navbar-links:
-  Publications: "aboutme"
-  CV: "aboutme"
+  Publications: "publications"
+  CV: "publications"
 
 ################
 # --- Logo --- #
