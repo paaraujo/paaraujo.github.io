@@ -11,6 +11,9 @@ layout: page
 
 {% for year in site.data.updates %}
     <h3>{{ year[0] }}</h3>
+    {% for month in year %}
+        <h4>{{ month[0] }}</h4>
+    {% endfor %}
 {% endfor %}
 
 <!-- end Experience -->
