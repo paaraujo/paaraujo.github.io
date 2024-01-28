@@ -9,14 +9,12 @@ layout: page
 <h1><br>Experience</h1>
 <hr />
 
-{% for year in site.data.updates %}
-    <h3>{{ year[0] }}</h3>
-    {% for month in year[1] %}
-        <h4>{{ month[0] }}</h4>
-        {% for update in month[1] %}
-            <p>{{ update }}</p>
-        {% endfor %}
-    {% endfor %}
+{% for job in site.data.experience %}
+<div>
+    <h3>{{ job.company }}</h3>
+    <h4>{{ job.position }} &bull; {{ job.duration }}</h4>
+    <p>{{ job.summary }}</p>
+</div>
 {% endfor %}
 
 <!-- end Experience -->
