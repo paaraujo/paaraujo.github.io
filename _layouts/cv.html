@@ -11,13 +11,13 @@ layout: page
 {% for years site.data.updates %}
     <div>
         {% for year in years %}
-            <h3>{{ year[0] }}</h3>
-            {% for month in year %}
+            <h3>{{ year }}</h3>
+            <!-- {% for month in year %}
                 <h4>{{ month }}</h4>
                 {% for update in month %}
                     <p>{{ update }}</p>
                 {% endfor %}
-            {% endfor %}
+            {% endfor %} -->
         {% endfor %}
     </div>
 {% endfor %}
