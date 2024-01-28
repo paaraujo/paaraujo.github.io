@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<h1><br>Latest News</h1>
+<hr />
+
 <div class="container">
   <div class="item">
     <div id="timeline">
