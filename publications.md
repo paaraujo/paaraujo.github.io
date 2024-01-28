@@ -12,10 +12,34 @@ Below you will find some of my publications, please, access my <a href="https://
     <!-- Início de ano -->
     <tr valign=TOP>
       <td>
+        <h3>2023</h3>
+      </td>
+      <td>
+        de Araujo, P. R. M., et al. (2023). A Novel Method for Land Vehicle Positioning: Invariant Kalman Filters and Deep-Learning-Based Radar Speed Estimation. <em>IEEE Transactions on Intelligent Vehicles</em>, 4275 - 4286. <a href="https://doi.org/10.1109/TIV.2023.3287790" target="_blank">[Paper]</a>
+      </td>
+    </tr>
+    <tr valign=TOP>
+      <td>
+      </td>
+      <td>
+        de Araujo, P. R. M., et al. (2023). Improving Land Vehicle Navigation: A Study on RIDR and Kalman Filters. <em>36th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2023)</em>, 1656 - 1668. <a href="https://doi.org/10.33012/2023.19212" target="_blank">[Paper]</a>
+      </td>
+    </tr>
+    <tr valign=TOP>
+      <td>
+      </td>
+      <td>
+        de Araujo, P. R. M., Noureldin, A., & Givigi, S. (2023). Robust Land Vehicle Positioning with Invariant Kalman Filters and Map-Based Corrections. <em>26th IEEE International Conference on Intelligent Transportation Systems (ITSC 2023)</em>, pp. <a href="https://2023.ieee-itsc.org/" target="_blank">[Paper]</a>
+      </td>
+    </tr>
+    <!-- Fim de ano -->
+    <!-- Início de ano -->
+    <tr valign=TOP>
+      <td>
         <h3>2022</h3>
       </td>
       <td>
-        de Araujo, P. R. M., & Lins, R. G. (2021). Evaluation of Invariant Extended Kalman Filters Applied to Multi-Sensor Land Vehicle Navigation in GNSS Challenging Environments. <em>35th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2022)</em>, 1631-1649. <a href="https://doi.org/10.33012/2022.18472" target="_blank">[Paper]</a>
+        de Araujo, P. R. M., et al. (2022). Evaluation of Invariant Extended Kalman Filters Applied to Multi-Sensor Land Vehicle Navigation in GNSS Challenging Environments. <em>35th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2022)</em>, 1631-1649. <a href="https://doi.org/10.33012/2022.18472" target="_blank">[Paper]</a>
       </td>
     </tr>
     <!-- Fim de ano -->
