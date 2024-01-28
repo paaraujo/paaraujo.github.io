@@ -6,19 +6,11 @@ layout: page
 
 <!-- begin Experience -->
 
-    <h1><br>Experience</h1>
-    <hr />
+<h1><br>Experience</h1>
+<hr />
 
-    <!-- {% for year in site.data.updates %}
-    <div>
-        <h3>{{ year }}</h3>
-        {% for month, updates in months %}
-            <h4>{{ month }}</h4>
-            {% for update in updates %}
-                <p>{{ update }}</p>
-            {% endfor %}
-        {% endfor %}
-    </div>
-    {% endfor %} -->
+{% for year in site.data.updates %}
+    <h3>{{ year }}</h3>
+{% endfor %}
 
 <!-- end Experience -->
