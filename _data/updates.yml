@@ -1,12 +1,11 @@
-updates:
-  2022:
-    September:
-      - "Update 1 for September 2022"
-      - "Update 2 for September 2022"
-      - "Update 3 for September 2022"
-      - "Update 4 for September 2022"
-      - "Update 5 for September 2022"
-  2023:
-    August:
-      - "Update 1 for August 2023"
-      - "Update 2 for August 2023"
+2022:
+  September:
+    - "Update 1 for September 2022"
+    - "Update 2 for September 2022"
+    - "Update 3 for September 2022"
+    - "Update 4 for September 2022"
+    - "Update 5 for September 2022"
+2023:
+  August:
+    - "Update 1 for August 2023"
+    - "Update 2 for August 2023"
