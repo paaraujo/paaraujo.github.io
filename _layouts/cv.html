@@ -13,6 +13,9 @@ layout: page
     <h3>{{ year[0] }}</h3>
     {% for month in year[1] %}
         <h4>{{ month[0] }}</h4>
+        {% for update in month[1] %}
+            <p>{{ update }}</p>
+        {% endfor %}
     {% endfor %}
 {% endfor %}
 
