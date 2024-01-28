@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Paulo Araujo 
 
 # Your name to show in the footer
-author: Some Person
+author: Paulo Araujo
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -98,7 +98,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
