@@ -4,122 +4,98 @@ layout: page
 
 {{ content }}
 
-{% include updates.md type="default" %}
 
-
-<!-- {% assign posts = paginator.posts | default: site.posts %} -->
-
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<!-- <ul class="posts-list list-unstyled" role="list">
-  {% for post in posts %}
-  <li class="post-preview">
-    <article>
-
-      {%- capture thumbnail -%}
-        {% if post.thumbnail-img %}
-          {{ post.thumbnail-img }}
-        {% elsif post.cover-img %}
-          {% if post.cover-img.first %}
-            {{ post.cover-img[0].first.first }}
-          {% else %}
-            {{ post.cover-img }}
-          {% endif %}
-        {% else %}
-        {% endif %}
-      {% endcapture %}
-      {% assign thumbnail=thumbnail | strip %}
-
-      {% if site.feed_show_excerpt == false %}
-      {% if thumbnail != "" %}
-      <div class="post-image post-image-normal">
-        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-        </a>
+<div class="container">
+  <div class="item">
+    <div id="timeline">
+      <div>
+        <!-- Novo ano -->
+        <section class="year">
+          <h3>Last</h3>
+          <section>
+            <ul>
+              <li><b>Cloud-based approach for automatic CNC workpiece origin localization based on image analysis</b> is accepted to
+        <em>Robotics and Computer-Integrated Manufacturing</em>.</li>
+            </ul>
+          </section>
+        </section>
+        <!-- Novo ano -->
+        <section class="year">
+          <h3>2020</h3>
+          <section>
+            <h4>September</h4>
+            <ul>
+              <li>I have started my PhD at <a href="https://queensu.ca" target="_blank">Queen's University</a> advised by 
+        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Sidney&lname=Givigi" target="_blank">Sidney Givigi</a> and 
+        <a href="http://www2.cs.queensu.ca/people/profile.php?fname=Aboelmagd%20&lname=Noureldin" target="_blank">Aboelmagd Noureldin</a>.</li>
+            </ul>
+          </section>
+        </section>
+        <!-- Novo ano -->
+        <section class="year">
+          <h3>2019</h3>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li><b>In-Process Tool Wear Measurement System Based on Image Analysis for CNC Drilling Machines</b> is accepted to
+        <em>IEEE Transactions on Instrumentation and Measurement</em>.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>October</h4>
+            <ul>
+              <li><b>Computer vision system for workpiece referencing in three-axis machining centers</b> is accepted to
+        <em>The International Journal of Advanced Manufacturing Technology</em>.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>September</h4>
+            <ul>
+              <li><b>In-process machine vision monitoring of tool wear for Cyber-Physical Production Systems</b> is accepted to
+        <em>Robotics and Computer-Integrated Manufacturing</em>.</li>
+            </ul>
+          </section>
+        </section>
+        <!-- Novo ano -->
+        <section class="year">
+          <h3>2018</h3>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>I defended my Master dissertation in Engineering and Innovation Management at UFABC.</li>
+              <li><b>A Visual Computing Approach for Automatic Workpiece Referencing in Machining Centers</b> is accepted to an oral presentation at the
+        <em>2018 13th IEEE International Conference on Industry Applications INDUSCON 2018</em>.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>September</h4>
+            <ul>
+              <li><b>In-process machine vision monitoring of tool wear for Cyber-Physical Production Systems</b> is accepted to
+        <em>Robotics and Computer-Integrated Manufacturing</em>.</li>
+            </ul>
+          </section>
+        </section>
+        <!-- Novo ano -->
+        <section class="year">
+          <h3>2017</h3>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li><b>Smart Setup - Computational visual system to reduce setup time in CNC vertical machining centers</b> is accepted to an oral presentation at the
+        <em>XXXVIII Ibero-Latin American Congress on Computational Methods in Engineering (CILAMCE 2017)</em>.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>January</h4>
+            <ul>
+              <li>I have started my Master at <a href="https://www.ufabc.edu.br/" target="_blank">UFABC</a> advised by 
+        <a href="https://www.ufabc.edu.br/ensino/docentes/romulo-goncalves-lins" target="_blank">Romulo Gonçalves Lins</a> and 
+        <a href="https://www.ufabc.edu.br/ensino/docentes/alexandre-acacio-de-andrade" target="_blank">Alexandre Acácio de Andrade</a>.</li>
+            </ul>
+          </section>
+        </section>
       </div>
-      {% endif %}
-      {% endif %}
-
-      <a href="{{ post.url | absolute_url }}">
-        <h2 class="post-title">{{ post.title | strip_html }}</h2>
-
-        {% if post.subtitle %}
-          <h3 class="post-subtitle">
-          {{ post.subtitle | strip_html }}
-          </h3>
-        {% endif %}
-      </a>
-
-      {% if post.author %}
-        <span>By <strong>{{ post.author | strip_html }}</strong></span>
-      {% endif %}
-      <p class="post-meta">
-        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        Posted on {{ post.date | date: date_format }}
-      </p>
-
-      {% if thumbnail != "" %}
-      <div class="post-image post-image-small">
-        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-        </a>
-      </div>
-      {% endif %}
-
-      {% unless site.feed_show_excerpt == false %}
-      {% if thumbnail != "" %}
-      <div class="post-image post-image-short">
-        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-        </a>
-      </div>
-      {% endif %}
-
-      <div class="post-entry">
-        {% assign excerpt_length = site.excerpt_length | default: 50 %}
-        {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-      {% endunless %}
-
-      {% if site.feed_show_tags != false and post.tags.size > 0 %}
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <ul class="d-inline list-inline" role="list">
-          {% for tag in post.tags %}
-          <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
-    </article>
-  </li>
-  {% endfor %}
-</ul> 
-
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
-      <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Newer Posts</span>
-    </a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span class="d-none d-sm-inline-block">Older Posts</span>
-      <i class="fas fa-arrow-right" alt="Older Posts"></i>
-    </a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}-->
-
+    </div>
+  </div>
+</div>
+  <!-- https://codepen.io/mathiesjanssen/pen/ggeBKm -->
