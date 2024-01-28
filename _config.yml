@@ -10,21 +10,18 @@
 ############################
 
 # Name of website
-title: Paulo Araujo 
+title: Paulo Ricardo Marques de Araujo 
 
 # Your name to show in the footer
-author: Paulo Araujo
+author: Paulo Ricardo Marques de Araujo
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Publications: "aboutme"
+  CV: "aboutme"
 
 ################
 # --- Logo --- #
