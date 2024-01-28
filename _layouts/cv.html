@@ -14,8 +14,8 @@ layout: page
             <h3>{{ year[0] }}</h3>
             {% for month in year %}
                 <h4>{{ month }}</h4>
-                {% for update in updates %}
-                    <p>{{ update.content }}</p>
+                {% for update in month %}
+                    <p>{{ update }}</p>
                 {% endfor %}
             {% endfor %}
         {% endfor %}
