@@ -8,12 +8,12 @@ layout: page
 <h1><br>Experience</h1>
 <hr />
 
-{% for year in site.data.updates %}
+{% for year, months in site.data.updates %}
     <div>
         <h3>{{ year }}</h3>
-        {% for month in year %}
+        {% for month, updates in months %}
             <h4>{{ month }}</h4>
-            {% for update in month %}
+            {% for update in updates %}
                 <p>{{ update.content }}</p>
             {% endfor %}
         {% endfor %}
