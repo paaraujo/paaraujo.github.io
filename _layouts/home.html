@@ -2,7 +2,25 @@
 layout: page
 ---
 
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+</html>
+
 {{ content }}
+
+
+# Lastest News
+* * *
+<div id="b-placeholder">
+</div>
+
+<script>
+  $(function(){
+    $("#b-placeholder").load("updates.md");
+  });
+</script>
 
 <!-- {% assign posts = paginator.posts | default: site.posts %} -->
 
