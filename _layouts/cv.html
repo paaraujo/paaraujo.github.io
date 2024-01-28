@@ -5,20 +5,22 @@ layout: page
 {{ content }}
 
 <!-- begin Experience -->
-<h1><br>Experience</h1>
-<hr />
+<section>
 
-{% for year site.data.updates %}
-    <div>
-        <h3>{{ year }}</h3>
-        {% for month in year %}
-            <h3>{{ month }}</h3>
-            {% for update in month %}
-                <p>{{ update }}</p>
+    <h1><br>Experience</h1>
+    <hr />
+
+    {% for year, months in site.data.updates %}
+        <div>
+            <h3>{{ year }}</h3>
+            {% for month, updates in months %}
+                <h4>{{ month }}</h4>
+                {% for update in updates %}
+                    <p>{{ update.update }}</p>
+                {% endfor %}
             {% endfor %}
-        {% endfor %}
-    </div>
-{% endfor %}
+        </div>
+    {% endfor %}
 
 </section>
 <!-- end Experience -->
