@@ -118,3 +118,303 @@ div.item {
   }
 }
 }
+
+/* ================================================================
+   MODERN HOMEPAGE STYLES
+   ================================================================ */
+
+/* ── Hero ─────────────────────────────────────────────────────── */
+.home-page {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home-hero {
+  padding: 5rem 0 4.5rem;
+  background-color: #ffffff;
+}
+
+.home-profile-photo {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  border: 4px solid #f1f5f9;
+  display: block;
+  margin: 0 auto;
+}
+
+.home-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.home-social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #f1f5f9;
+  color: #475569;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.home-social-btn:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.home-name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home-position {
+  font-size: 1.15rem;
+  color: #334155;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.home-affiliation {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+}
+
+.home-affil-icon {
+  margin-right: 0.4rem;
+  color: #94a3b8;
+}
+
+.home-bio {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.85;
+  max-width: 680px;
+}
+
+.home-bio p {
+  margin-bottom: 0.75rem;
+}
+
+.home-bio a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+  transition: border-color 0.2s;
+}
+
+.home-bio a:hover {
+  color: #1d4ed8;
+  border-bottom-color: #2563eb;
+}
+
+/* ── CTA Buttons ──────────────────────────────────────────────── */
+.home-cta-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, transform 0.15s;
+}
+
+.home-btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.home-btn-primary {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  border: 2px solid #1e3a5f;
+}
+
+.home-btn-primary:hover {
+  background-color: #162d4d;
+  color: #ffffff;
+}
+
+.home-btn-secondary {
+  background-color: transparent;
+  color: #1e3a5f;
+  border: 2px solid #1e3a5f;
+}
+
+.home-btn-secondary:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
+
+/* ── Sections ─────────────────────────────────────────────────── */
+.home-section {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.home-section-alt {
+  background-color: #f8fafc;
+}
+
+.home-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home-section-title-center {
+  justify-content: center;
+  border-bottom: none;
+}
+
+.home-section-icon {
+  color: #2563eb;
+  font-size: 1rem;
+}
+
+/* ── Research Interests ───────────────────────────────────────── */
+.home-interests-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-interest-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 0;
+  color: #334155;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.home-interest-item:last-child {
+  border-bottom: none;
+}
+
+.home-interest-item i {
+  color: #2563eb;
+  font-size: 0.65rem;
+  flex-shrink: 0;
+}
+
+/* ── Education Cards ──────────────────────────────────────────── */
+.home-edu-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #2563eb;
+}
+
+.home-edu-icon {
+  color: #2563eb;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.home-edu-degree {
+  font-weight: 600;
+  color: #0f172a;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.home-edu-university {
+  color: #475569;
+  font-size: 0.875rem;
+}
+
+.home-edu-year {
+  color: #94a3b8;
+  font-size: 0.8rem;
+  margin-top: 0.15rem;
+}
+
+/* ── Contact ──────────────────────────────────────────────────── */
+.home-contact-item {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-contact-item a {
+  color: #2563eb;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.home-contact-item a:hover {
+  color: #1d4ed8;
+}
+
+.home-contact-location {
+  color: #64748b;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 767px) {
+  .home-hero {
+    padding: 3rem 0 2.5rem;
+    text-align: center;
+  }
+
+  .home-name {
+    font-size: 1.9rem;
+  }
+
+  .home-bio {
+    font-size: 0.95rem;
+  }
+
+  .home-cta-buttons {
+    justify-content: center;
+  }
+
+  .home-affiliation {
+    justify-content: center;
+  }
+}

@@ -1,43 +1,130 @@
 ---
-layout: page
+layout: base
 ---
 
-{{ content }}
+<main class="home-page">
 
-Hi, my name is Paulo. I am a Brazilian entrepreneur and researcher. I have spent most of my career working for various companies, selling and supporting <a href="https://www.plm.automation.siemens.com/global/en/our-story/glossary/digital-manufacturing/13157" target="_blank">digital manufacturing</a> technologies. After completing two undergraduate courses, I pursued a Master's in Engineering and Innovation Management, where I began researching various <a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank">computer vision</a> topics. Currently, I am a Ph.D. candidate at <a href="https://www.queensu.ca/" target="_blank">Queen's University</a> in Canada, focusing on autonomous vehicles and robotics. For more details about my academic background, skills, and recommendations, please visit my <a href="https://www.linkedin.com/in/paaraujo/" target="_blank">LinkedIn</a> profile.
+  <!-- ─── Hero ──────────────────────────────────────────────────── -->
+  <section class="home-hero">
+    <div class="container">
+      <div class="row align-items-center">
 
+        <div class="col-md-3 text-center mb-4 mb-md-0">
+          <img src="{{ page.profile-photo | default: '/assets/img/circular.jpg' }}"
+               alt="{{ site.author }}"
+               class="home-profile-photo">
+          <div class="home-social-icons mt-3">
+            {% if site.social-network-links.email %}
+            <a href="mailto:{{ site.social-network-links.email }}" title="Email" class="home-social-btn">
+              <i class="fas fa-envelope"></i>
+            </a>
+            {% endif %}
+            {% if site.social-network-links.google-scholar %}
+            <a href="https://scholar.google.com/citations?user={{ site.social-network-links.google-scholar }}"
+               target="_blank" rel="noopener" title="Google Scholar" class="home-social-btn">
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+            {% endif %}
+            {% if site.social-network-links.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ site.social-network-links.linkedin }}"
+               target="_blank" rel="noopener" title="LinkedIn" class="home-social-btn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            {% endif %}
+            {% if site.social-network-links.github %}
+            <a href="https://github.com/{{ site.social-network-links.github }}"
+               target="_blank" rel="noopener" title="GitHub" class="home-social-btn">
+              <i class="fab fa-github"></i>
+            </a>
+            {% endif %}
+            {% if site.social-network-links.twitter %}
+            <a href="https://twitter.com/{{ site.social-network-links.twitter }}"
+               target="_blank" rel="noopener" title="Twitter / X" class="home-social-btn">
+              <i class="fab fa-twitter"></i>
+            </a>
+            {% endif %}
+          </div>
+        </div>
 
+        <div class="col-md-9 pl-md-5">
+          <h1 class="home-name">{{ site.author }}</h1>
+          <p class="home-position">{{ page.subtitle }}</p>
+          <p class="home-affiliation">
+            <i class="fas fa-university home-affil-icon"></i>{{ page.affiliation }}
+          </p>
+          <div class="home-bio">{{ content }}</div>
+          <div class="home-cta-buttons mt-4">
+            <a href="{{ '/publications' | relative_url }}" class="home-btn home-btn-primary">
+              <i class="fas fa-file-alt"></i>&nbsp;Publications
+            </a>
+            <a href="{{ '/cv' | relative_url }}" class="home-btn home-btn-secondary">
+              <i class="fas fa-scroll"></i>&nbsp;CV
+            </a>
+          </div>
+        </div>
 
-<!-- begin Updates -->
-
-<h1><br>Latest News</h1>
-<hr />
-
-<div class="container">
-  <div class="item">
-    <div id="timeline">
-      <div>
-        {% for year in site.data.updates %}
-            <section class="year">
-              <h3>{{ year[0] }}</h3>
-              {% if forloop.first == false %}
-                {% for month in year[1] %}
-                  <section>
-                      <h4>{{ month[0] }}</h4>
-                    <ul>
-                    {% for update in month[1] %}
-                        <li>{{ update }}</li>
-                    {% endfor %}
-                    </ul>
-                  </section>
-                {% endfor %}
-              {% endif %}
-            </section>
-        {% endfor %}
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
-<!-- end Updates -->
+  <!-- ─── Interests & Education ────────────────────────────────── -->
+  <section class="home-section home-section-alt">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-5 mb-5 mb-md-0">
+          <h2 class="home-section-title">
+            <i class="fas fa-microscope home-section-icon"></i>Research Interests
+          </h2>
+          <ul class="home-interests-list">
+            {% for interest in page.interests %}
+            <li class="home-interest-item">
+              <i class="fas fa-chevron-right"></i>{{ interest }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="col-md-7">
+          <h2 class="home-section-title">
+            <i class="fas fa-graduation-cap home-section-icon"></i>Education
+          </h2>
+          {% for edu in page.education %}
+          <div class="home-edu-card">
+            <div class="home-edu-icon"><i class="fas fa-university"></i></div>
+            <div class="home-edu-details">
+              <div class="home-edu-degree">{{ edu.degree }}</div>
+              <div class="home-edu-university">{{ edu.university }}</div>
+              <div class="home-edu-year">{{ edu.year }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ───────────────────────────────────────────────── -->
+  <section class="home-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+          <h2 class="home-section-title home-section-title-center">Contact</h2>
+          {% if site.social-network-links.email %}
+          <p class="home-contact-item">
+            <a href="mailto:{{ site.social-network-links.email }}">
+              <i class="fas fa-envelope"></i>{{ site.social-network-links.email }}
+            </a>
+          </p>
+          {% endif %}
+          <p class="home-contact-location">
+            <i class="fas fa-map-marker-alt"></i>Kingston, Ontario, Canada
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
 
