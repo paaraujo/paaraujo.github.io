@@ -1,0 +1,75 @@
+hugoblox:
+  schema: "2.0"
+
+  identity:
+    name: "Paulo Araujo"
+    organization: ""
+    type: person
+    tagline: "Postdoctoral Researcher · Autonomous Vehicles · State Estimation"
+    description: "Personal academic website of Paulo Araujo, Postdoctoral Researcher at Queen's University, Canada."
+    social:
+      twitter: "prma"
+
+  theme:
+    mode: light
+    pack: "default"
+    colors:
+      primary: "sky"
+      secondary: ""
+      neutral: ""
+
+  typography:
+    pack: "academic"
+
+  layout:
+    radius: "md"
+    spacing: "spacious"
+    avatar_shape: circle
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+
+  footer:
+    style: minimal
+    language_switcher: false
+    text: ""
+
+  copyright:
+    notice: "© {year} Paulo Araujo"
+    license:
+      type: cc
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: false
+    citations:
+      style: ieee
+
+  search:
+    enable: true
+
+  comments:
+    enable: false
+
+  analytics:
+    google:
+      measurement_id: ""
+
+  pro:
+    hide_attribution: false

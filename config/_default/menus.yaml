@@ -1,0 +1,10 @@
+main:
+  - name: About
+    url: /
+    weight: 10
+  - name: Publications
+    url: /publications/
+    weight: 20
+  - name: CV
+    url: uploads/cv.pdf
+    weight: 30
