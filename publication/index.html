@@ -790,7 +790,7 @@
       </div>
 
       <div id="container-publications">
-        <div id="pub-list-container"><p style="color:#888; text-align:center; padding:2rem;">Loading publications…</p></div>
+        <div class="grid-sizer col-12"></div>
       </div>
 
     </div>
@@ -909,24 +909,34 @@
 
 <script>
 (function() {
+  var PUB_TYPE_CLASS = { 'conference': 'pubtype-1', 'journal': 'pubtype-2', 'preprint': 'pubtype-3' };
+
   function renderPubs(pubs) {
-    var container = document.getElementById('pub-list-container');
-    if (!pubs.length) { container.innerHTML = '<p>No publications found.</p>'; return; }
-    var html = '';
+    var container = document.getElementById('container-publications');
+    if (!container) return;
+
+    if (!pubs.length) {
+      container.innerHTML += '<p style="grid-column:1/-1;color:#888;text-align:center;padding:2rem;">No publications found.</p>';
+      return;
+    }
+
+    var fragment = document.createDocumentFragment();
     pubs.forEach(function(p) {
+      var ptClass = PUB_TYPE_CLASS[p.pub_type] || 'pubtype-1';
+      var yearClass = 'year-' + (p.year || '');
+
       var authors = p.authors.map(function(a) {
-        return a === 'Paulo Ricardo M. de Araujo'
+        return a === 'Paulo Ricardo M. de Araujo' || a === 'Paulo Ricardo Marques de Araujo'
           ? '<span><strong>' + a + '</strong></span>'
           : '<span>' + a + '</span>';
       }).join(', ');
 
-      var btns = '';
-      btns += '<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/' + p.slug + '/cite.bib">Cite</a> ';
+      var btns = '<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/' + p.slug + '/cite.bib">Cite</a> ';
       if (p.paper_url) {
-        btns += '<a class="btn btn-outline-primary btn-page-header btn-sm" href="' + p.paper_url + '" target="_blank" rel="noopener"><i class="fab fa-Arxiv mr-1"></i>Paper</a> ';
+        btns += '<a class="btn btn-outline-primary btn-page-header btn-sm" href="' + p.paper_url + '" target="_blank" rel="noopener">Paper</a> ';
       }
       if (p.code_url) {
-        btns += '<a class="btn btn-outline-primary btn-page-header btn-sm" href="' + p.code_url + '" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>Code</a>';
+        btns += '<a class="btn btn-outline-primary btn-page-header btn-sm" href="' + p.code_url + '" target="_blank" rel="noopener">Code</a>';
       }
 
       var thumbSrc = p.thumb_webp ? '/publication/' + p.slug + '/' + p.thumb_webp
@@ -934,26 +944,37 @@
                    : '';
       var thumbHtml = thumbSrc
         ? '<div class="ml-3"><a href="/publication/' + p.slug + '/"><img src="' + thumbSrc + '" height="51" width="150" alt="' + p.title.replace(/"/g, '&quot;') + '" loading="lazy"></a></div>'
-        : '<div class="ml-3"></div>';
+        : '';
 
-      html += '<div class="media stream-item view-compact">' +
-        '<div class="media-body">' +
-        '<div class="section-subheading article-title mb-0 mt-0">' +
-        '<a href="/publication/' + p.slug + '/">' + p.title + '</a>' +
-        '</div>' +
-        '<div class="stream-meta article-metadata"><div>' + authors + '</div></div>' +
-        '<div class="btn-links">' + btns + '</div>' +
-        '</div>' + thumbHtml + '</div>';
+      var div = document.createElement('div');
+      div.className = 'isotope-item col-12 ' + ptClass + ' ' + yearClass;
+      div.innerHTML =
+        '<div class="media stream-item view-compact">' +
+          '<div class="media-body">' +
+            '<div class="section-subheading article-title mb-0 mt-0">' +
+              '<a href="/publication/' + p.slug + '/">' + p.title + '</a>' +
+            '</div>' +
+            '<div class="stream-meta article-metadata"><div>' + authors + '</div></div>' +
+            '<div class="btn-links">' + btns + '</div>' +
+          '</div>' + thumbHtml +
+        '</div>';
+      fragment.appendChild(div);
     });
-    container.innerHTML = html;
+
+    container.appendChild(fragment);
+
+    // Notify Isotope about the new items
+    if (window.jQuery && jQuery('#container-publications').data('isotope')) {
+      jQuery('#container-publications').isotope('reloadItems').isotope();
+    }
   }
 
   fetch('/publications-data.json')
     .then(function(r) { return r.json(); })
     .then(renderPubs)
-    .catch(function(e) {
-      document.getElementById('pub-list-container').innerHTML =
-        '<p style="color:red;">Failed to load publications.</p>';
+    .catch(function() {
+      var c = document.getElementById('container-publications');
+      if (c) c.innerHTML += '<p style="color:red;padding:1rem;">Failed to load publications.</p>';
     });
 })();
 </script>
