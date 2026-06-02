@@ -27,7 +27,7 @@ from urllib.parse import quote
 SITE_ROOT   = os.path.dirname(os.path.abspath(__file__))
 PUB_ROOT    = os.path.join(SITE_ROOT, 'publication')
 JSON_PATH   = os.path.join(SITE_ROOT, 'publications-data.json')
-TEMPLATE    = os.path.join(PUB_ROOT, 'hu-longnav-2026', 'index.html')
+TEMPLATE    = os.path.join(PUB_ROOT, '_template.html')
 
 # ── Template constants (must match what is actually in the template file) ──────
 T_SLUG   = 'hu-longnav-2026'
@@ -365,8 +365,9 @@ def cmd_add():
         'date_label': date_label, 'venue': venue, 'abstract': abstract,
         'paper_url': paper_url, 'code_url': code_url, 'video_url': video_url or None,
         'pub_type': pub_type,
-        'featured_img': 'featured.png',  # assumed; place image in folder
-        'thumb_webp': None, 'large_webp': None,
+        'featured_img': 'featured.png',  # place featured.png in publication/<slug>/
+        'thumb_webp': None,  # not needed — JS falls back to featured_img
+        'large_webp': None,  # not needed — generator uses featured_img
         'bibtex': bibtex,
     }
     pubs.append(new_pub)
