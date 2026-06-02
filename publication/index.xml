@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Yue Hu</title>
+    <link>https://yuehu.github.io/publication/</link>
+      <atom:link href="https://yuehu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuehu.github.io/media/icon_hufe4902d8a3e296f954ced894ecfc599d_303890_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://yuehu.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>LongNav-R1: Horizon-Adaptive Multi-Turn RL for Long-Horizon VLA Navigation [RSS 2026]</title>
+      <link>https://yuehu.github.io/publication/hu-longnav-2026/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-longnav-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pragmatic Communication in Multi-Agent Collaborative Perception [TPAMI 2026]</title>
+      <link>https://yuehu.github.io/publication/hu-pragcomm-2026/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-pragcomm-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rate-Distortion Optimized Communication for Collaborative Perception [ICLR 2026]</title>
+      <link>https://yuehu.github.io/publication/liu-rdcomm-2026/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/liu-rdcomm-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unveiling the Impact of Data and Model Scaling on High-Level Control for Humanoid Robots [ICRA 2026]</title>
+      <link>https://yuehu.github.io/publication/wei-humanmotion-2026/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/wei-humanmotion-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BeliefMapNav: 3D voxel-based belief map for zero-shot object navigation [NeurIPS 2025]</title>
+      <link>https://yuehu.github.io/publication/zhou-beleifmap-2025/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/zhou-beleifmap-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imaginative world modeling with scene graphs for embodied agent navigation [ICCV 2025 Demo Track]</title>
+      <link>https://yuehu.github.io/publication/hu-sgimaginenav-2025/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-sgimaginenav-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Evolving Multi-Agent Collaboration Networks for Software Development [ICLR 2025]</title>
+      <link>https://yuehu.github.io/publication/hu-evomac-2025/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-evomac-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Extensible Framework for Open Heterogeneous Collaborative Perception [ICLR 2024]</title>
+      <link>https://yuehu.github.io/publication/lu-heal-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/lu-heal-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication-Efficient Collaborative Perception via Information Filling with Codebook [CVPR 2024]</title>
+      <link>https://yuehu.github.io/publication/hu-codefilling-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-codefilling-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Collaborative Autonomous Driving Simulation Platform and End-to-End System [TPAMI 2025]</title>
+      <link>https://yuehu.github.io/publication/liu-v2xverse-2025/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/liu-v2xverse-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration Helps Camera Overtake LiDAR in 3D Detection [CVPR 2023]</title>
+      <link>https://yuehu.github.io/publication/hu-coca3d-2023/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-coca3d-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aerial monocular 3d object detection [RAL 2023]</title>
+      <link>https://yuehu.github.io/publication/hu-aerial-2023/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-aerial-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asynchrony-Robust Collaborative Perception via Bird&#39;s Eye View Flow [NeurIPS 2023]</title>
+      <link>https://yuehu.github.io/publication/wei-cobevflow-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/wei-cobevflow-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Category Query Learning for Human-Object Interaction Classification [CVPR 2023]</title>
+      <link>https://yuehu.github.io/publication/xie-hoi-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/xie-hoi-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latency-aware collaborative perception [ECCV 2022]</title>
+      <link>https://yuehu.github.io/publication/lei-syncnet-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/lei-syncnet-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where2comm: Communication-efficient collaborative perception via spatial confidence maps [NeurIPS 2022 Spotlight]</title>
+      <link>https://yuehu.github.io/publication/hu-where-2-comm-2022/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-where-2-comm-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-end human object interaction detection with hoi transformer [CVPR 2021]</title>
+      <link>https://yuehu.github.io/publication/zou-hoi-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/zou-hoi-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative motion prediction via neural motion message passing [CVPR 2020 Oral]</title>
+      <link>https://yuehu.github.io/publication/hu-nmmp-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-nmmp-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural message passing for visual relationship detection [ICML 2019 Workshop Spotlight]</title>
+      <link>https://yuehu.github.io/publication/hu-vrd-2019/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://yuehu.github.io/publication/hu-vrd-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
