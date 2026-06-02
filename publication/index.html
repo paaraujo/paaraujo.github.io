@@ -976,6 +976,21 @@
       var c = document.getElementById('container-publications');
       if (c) c.innerHTML += '<p style="color:red;padding:1rem;">Failed to load publications.</p>';
     });
+
+  // Event delegation for cite modal — works with dynamically-loaded publications
+  $(document).on('click', '.js-cite-modal', function(e) {
+    e.preventDefault();
+    var t = $(this).attr('data-filename');
+    var i = $('#modal');
+    i.find('.modal-body code').load(t, function(o, u, n) {
+      if (u === 'error') {
+        $('#modal-error').html('Error: ' + n.status + ' ' + n.statusText);
+      } else {
+        $('.js-download-cite').attr('href', t);
+      }
+    });
+    i.modal('show');
+  });
 })();
 </script>
 

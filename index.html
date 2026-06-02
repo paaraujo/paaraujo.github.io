@@ -420,7 +420,7 @@ I enjoy bridging rigorous research with real-world engineering challenges.</p>
     var html = '';
     pubs.slice(0, RECENT_PUB_COUNT).forEach(function(p) {
       var authors = p.authors.map(function(a) {
-        return a === 'Paulo Ricardo M. de Araujo'
+        return a === 'Paulo Ricardo Marques de Araujo'
           ? '<span><strong>' + a + '</strong></span>'
           : '<span>' + a + '</span>';
       }).join(', ');
@@ -458,6 +458,21 @@ I enjoy bridging rigorous research with real-world engineering challenges.</p>
       var c = document.getElementById('recent-pub-list');
       if (c) c.innerHTML = '<p style="color:red;">Failed to load publications.</p>';
     });
+
+  // Event delegation for cite modal — works with dynamically-loaded publications
+  $(document).on('click', '.js-cite-modal', function(e) {
+    e.preventDefault();
+    var t = $(this).attr('data-filename');
+    var i = $('#modal');
+    i.find('.modal-body code').load(t, function(o, u, n) {
+      if (u === 'error') {
+        $('#modal-error').html('Error: ' + n.status + ' ' + n.statusText);
+      } else {
+        $('.js-download-cite').attr('href', t);
+      }
+    });
+    i.modal('show');
+  });
 })();
 </script>
 <script id="page-data" type="application/json">{"use_headroom":false}</script>

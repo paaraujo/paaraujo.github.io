@@ -126,9 +126,15 @@ def generate_page(pub, force=False):
     pub_type    = pub.get('pub_type', 'conference')
     video_url   = pub.get('video_url') or ''
 
-    # ── 1. Slug URLs ────────────────────────────────────────────────────────────
+    # ── 1. Slug URLs (plain and URL-encoded for share buttons) ──────────────────
     html = html.replace(f'/publication/{T_SLUG}/', f'/publication/{slug}/')
     html = html.replace(f'publication/{T_SLUG}/', f'publication/{slug}/')
+    t_slug_enc = quote(f'/publication/{T_SLUG}/', safe='')
+    n_slug_enc = quote(f'/publication/{slug}/', safe='')
+    html = html.replace(t_slug_enc, n_slug_enc)
+
+    # ── 1b. Domain ───────────────────────────────────────────────────────────────
+    html = html.replace('yuehu.github.io', 'paaraujo.github.io')
 
     # ── 2. Title (plain text occurrences) ───────────────────────────────────────
     html = html.replace(T_TITLE, title)
