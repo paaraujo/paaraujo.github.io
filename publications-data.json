@@ -19,5 +19,31 @@
     "venue": "IEEE Robotics and Automation Letters (RA-L)",
     "pub_type": "journal",
     "video_url": null
+  },
+  {
+    "slug": "navinst-2025",
+    "title": "The NavINST Dataset for Multi-Sensor Autonomous Navigation",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Eslam Mounier",
+      "Qamar Bader",
+      "Emma Dawson",
+      "Shaza I. Kaoud Abdelaziz",
+      "Ahmed Zekry",
+      "Mohamed Elhabiby",
+      "Aboelmagd Noureldin"
+    ],
+    "year": 2025,
+    "date_label": "April 2025",
+    "abstract": "The Navigation and Instrumentation (NavINST) laboratory has developed a comprehensive multisensory dataset from various road-test trajectories in urban environments, featuring diverse lighting conditions, including indoor garage scenarios with dense 3D maps. This dataset includes multiple commercial-grade IMUs and a high-end tactical-grade IMU. Additionally, it contains a wide array of perception-based sensors, such as a solid-state LiDAR—making it one of the first datasets to do so—a mechanical LiDAR, four electronically scanning RADARs, a monocular camera, and two stereo cameras. The dataset also includes forward speed measurements derived from the vehicle’s odometer, along with accurately post-processed high-end GNSS/IMU data, providing precise ground truth positioning and navigation information. The NavINST dataset is designed to support advanced research in high-precision positioning, navigation, mapping, computer vision, and multisensory fusion. It offers rich, multi-sensor data ideal for developing and validating robust algorithms for autonomous vehicles. Finally, it is fully integrated with the robot operating system (ROS), ensuring ease of use and accessibility for the research community. The complete dataset and development tools are available at (navinst.github.io).",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10980246",
+    "code_url": "https://github.com/NavInst/dataset",
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{navinst-2025,\n  author = {Paulo Ricardo Marques de Araujo and Eslam Mounier and Qamar Bader and Emma Dawson and Shaza I. Kaoud Abdelaziz and Ahmed Zekry and Mohamed Elhabiby and Aboelmagd Noureldin},\n  title = {The NavINST Dataset for Multi-Sensor Autonomous Navigation},\n  journal = {IEEE Access},\n  year = {2025}\n}",
+    "venue": "IEEE Access",
+    "pub_type": "journal",
+    "video_url": "publication/navinst-2025/indoor_garage.mp4"
   }
 ]
