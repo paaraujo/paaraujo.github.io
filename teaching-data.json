@@ -6,7 +6,7 @@
     "term":         "Winter 2026",
     "institution":  "Queen's University",
     "role":         "Instructor",
-    "summary":      "ELEC 392 (Engineering Design and Development) is a mandatory 3.5-unit third-year core course in the Electrical and Computer Engineering (ECE) department at Queen's University. It acts as an essential bridge, preparing students for the definition, design, management, and societal implementation of real-world engineering projects.",
+    "summary":      "ELEC 392 acts as an essential bridge, preparing students for the definition, design, management, and societal implementation of real-world engineering projects.",
     "description":  "The goal of this course is to prepare students for definition, design, management, and development of engineering projects and products. Students will learn about problem definition and impact analysis from an economic standpoint as well as other perspectives. Different design principles, management techniques, and development methodologies will be described. Culture and communication in teams will be discussed, followed by important concepts in ethics and intellectual property. Students will apply concepts and explore issues through projects and laboratory activity. The course is developed using an autonomous vehicle master project where students will developed robotaxis for the fictional city of Quackston.",
     "featured_img": "featured.png",
     "video_url":    null,
