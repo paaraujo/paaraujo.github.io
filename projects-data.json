@@ -7,6 +7,7 @@
     "start_year":   null,
     "end_year":     null,
     "featured_img": "featured.png",
+    "video_url":    null,
     "external_url": null,
     "paper_url":    null,
     "code_url":     null,

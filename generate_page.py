@@ -517,8 +517,10 @@ def _gen_content_page(page_type, item):
     )
     # Build content
     featured_img = item.get('featured_img')
-    img_html  = _featured_image_block(page_type, slug, featured_img) if featured_img else ''
-    body_html = img_html + (_project_content(item) if page_type == 'project' else _teaching_content(item))
+    video_url    = item.get('video_url') or ''
+    img_html     = _featured_image_block(page_type, slug, featured_img) if featured_img else ''
+    video_html   = _video_embed(video_url) if video_url else ''
+    body_html    = img_html + video_html + (_project_content(item) if page_type == 'project' else _teaching_content(item))
     m = re.search(
         r'<div class="universal-wrapper pt-3">.*?</div>\s*</div>\s*<div class="page-footer">',
         html, flags=re.DOTALL
@@ -553,12 +555,13 @@ def _add_project(json_path):
     external_url = _ask('External URL (optional): ')
     paper_url    = _ask('Paper URL (optional): ')
     code_url     = _ask('Code URL (optional): ')
+    video_url    = _ask('Video URL (YouTube/Vimeo/MP4, optional): ')
     tags = [t.strip() for t in tags_raw.split(',')] if tags_raw else []
     entry = {
         'slug': slug, 'title': title,
         'summary': summary or '', 'description': description or '',
         'start_year': start_year, 'end_year': end_year, 'tags': tags,
-        'featured_img': featured_img,
+        'featured_img': featured_img, 'video_url': video_url,
         'external_url': external_url, 'paper_url': paper_url, 'code_url': code_url,
     }
     data.append(entry)
@@ -578,6 +581,7 @@ def _add_course(json_path):
     summary      = _ask('Summary (1-2 sentences): ')
     description  = _ask('Longer description (optional): ')
     featured_img = _ask('Featured image filename (optional): ')
+    video_url    = _ask('Video URL (YouTube/Vimeo/MP4, optional): ')
     url          = _ask('Course page URL (optional): ')
     syllabus_url = _ask('Syllabus URL (optional): ')
     entry = {
@@ -585,7 +589,8 @@ def _add_course(json_path):
         'code': code or '', 'term': term or '',
         'institution': institution or '', 'role': role or '',
         'summary': summary or '', 'description': description or '',
-        'featured_img': featured_img, 'url': url, 'syllabus_url': syllabus_url,
+        'featured_img': featured_img, 'video_url': video_url,
+        'url': url, 'syllabus_url': syllabus_url,
     }
     data.append(entry)
     save_json(json_path, data)

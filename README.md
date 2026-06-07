@@ -98,6 +98,7 @@ Pages live under `project/<slug>/index.html` and are generated from `projects-da
   "end_year": null,
   "tags": ["SLAM", "LiDAR", "Autonomous Vehicles"],
   "featured_img": "featured.png",
+  "video_url": null,
   "external_url": null,
   "paper_url": "https://arxiv.org/abs/xxxx.xxxxx",
   "code_url": "https://github.com/example/lidar-slam"
@@ -135,6 +136,7 @@ Pages live under `teaching/<slug>/index.html` and are generated from `teaching-d
   "summary": "One or two sentence summary.",
   "description": "Longer description shown on the detail page.",
   "featured_img": null,
+  "video_url": null,
   "url": "https://example.com/elec825",
   "syllabus_url": null
 }
