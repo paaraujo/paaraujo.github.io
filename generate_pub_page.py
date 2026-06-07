@@ -194,10 +194,25 @@ def generate_page(pub, force=False):
     img_folder = os.path.join(folder)
     has_image = featured and os.path.exists(os.path.join(img_folder, featured))
     if has_image:
-        # Replace hashed webp with featured.png/jpg
+        # Compute display dimensions from actual image size (scaled to 720px width)
+        try:
+            from PIL import Image as PILImage
+            with PILImage.open(os.path.join(img_folder, featured)) as _im:
+                _ow, _oh = _im.size
+            img_w, img_h = 720, round(720 * _oh / _ow)
+        except Exception:
+            img_w, img_h = 720, 480
+
+        # Replace hashed webp src and dimensions
         html = re.sub(
             r'src="/publication/' + re.escape(slug) + r'/[^"]+\.(webp|png|jpg|gif)"(\s+width="\d+")?(\s+height="\d+")?',
-            f'src="/publication/{slug}/{featured}" width="720" height="480"',
+            f'src="/publication/{slug}/{featured}" width="{img_w}" height="{img_h}"',
+            html
+        )
+        # Update wrapper max-height to match actual image height (prevents overflow)
+        html = re.sub(
+            r'(class="article-header article-container featured-image-wrapper[^"]*"[^>]*style="[^"]*max-width:\s*\d+px;\s*)max-height:\s*\d+px',
+            rf'\g<1>max-height:{img_h}px',
             html
         )
     else:
