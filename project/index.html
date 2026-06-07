@@ -279,8 +279,8 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://yuehu.github.io/project/" />
-<link rel="canonical" href="https://yuehu.github.io/project/" />
+<link rel="alternate" hreflang="en-us" href="https://paaraujo.github.io/project/" />
+<link rel="canonical" href="https://paaraujo.github.io/project/" />
 
 
 
@@ -313,9 +313,9 @@
 <meta property="twitter:card" content="summary" />
 <meta property="twitter:image" content="https://yuehu.github.io/media/icon_hufe4902d8a3e296f954ced894ecfc599d_303890_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Paulo Ricardo M. de Araujo" />
-<meta property="og:url" content="https://yuehu.github.io/project/" />
+<meta property="og:url" content="https://paaraujo.github.io/project/" />
 <meta property="og:title" content="Projects | Paulo Ricardo M. de Araujo" />
-<meta property="og:description" content="Paulo Ricardo M. de Araujo" /><meta property="og:image" content="https://yuehu.github.io/media/icon_hufe4902d8a3e296f954ced894ecfc599d_303890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Paulo Ricardo M. de Araujo" /><meta property="og:image" content="https://paaraujo.github.io/media/icon_hufe4902d8a3e296f954ced894ecfc599d_303890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
 
@@ -559,6 +559,14 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/project"><span>Projects</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
@@ -647,27 +655,12 @@
   
 <div class="universal-wrapper pt-3">
   <h1>Projects</h1>
-
-  
-
-  
 </div>
 
-
-
-<div class="universal-wrapper">
-  
-
-
-  
-
-  
-  
-
-  
-
-  
-
+<div class="universal-wrapper mt-4">
+  <div id="projects-grid">
+    <p class="text-muted">Loading projects…</p>
+  </div>
 </div>
   </div>
 
@@ -850,5 +843,48 @@
 
 
 
+
+<script>
+(function () {
+  function renderProjects(projects) {
+    var container = document.getElementById('projects-grid');
+    if (!container) return;
+    if (!projects.length) {
+      container.innerHTML = '<p class="text-muted">No projects listed yet.</p>';
+      return;
+    }
+    var html = '<div class="row">';
+    projects.forEach(function (p) {
+      var href   = p.external_url || ('/project/' + p.slug + '/');
+      var tgt    = p.external_url ? ' target="_blank" rel="noopener"' : '';
+      var imgSrc = p.featured_img ? '/project/' + p.slug + '/' + p.featured_img : null;
+      var imgHtml = imgSrc
+        ? '<a href="' + href + '"' + tgt + '><img src="' + imgSrc + '" class="card-img-top" alt="' + p.title.replace(/"/g, '&quot;') + '" style="height:180px;object-fit:cover;" loading="lazy"></a>'
+        : '<a href="' + href + '"' + tgt + '><div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height:180px;"><i class="fas fa-microscope fa-3x text-muted"></i></div></a>';
+      var btns = '';
+      if (p.external_url) btns += '<a class="btn btn-outline-primary btn-page-header btn-sm mr-1" href="' + p.external_url + '" target="_blank" rel="noopener">Website</a>';
+      if (p.paper_url)    btns += '<a class="btn btn-outline-primary btn-page-header btn-sm mr-1" href="' + p.paper_url    + '" target="_blank" rel="noopener">Paper</a>';
+      if (p.code_url)     btns += '<a class="btn btn-outline-primary btn-page-header btn-sm" href="' + p.code_url + '" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>Code</a>';
+      html += '<div class="col-12 col-sm-6 col-lg-4 mb-4">'
+        + '<div class="card h-100 shadow-sm">'
+        + imgHtml
+        + '<div class="card-body d-flex flex-column">'
+        + '<h5 class="card-title mt-0 mb-1"><a href="' + href + '"' + tgt + '>' + p.title + '</a></h5>'
+        + '<p class="card-text flex-grow-1" style="font-size:.9rem;color:#6c757d;">' + (p.summary || '') + '</p>'
+        + (btns ? '<div class="btn-links mt-2">' + btns + '</div>' : '')
+        + '</div></div></div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+  fetch('/projects-data.json')
+    .then(function (r) { return r.json(); })
+    .then(renderProjects)
+    .catch(function () {
+      var c = document.getElementById('projects-grid');
+      if (c) c.innerHTML = '<p style="color:red;">Failed to load projects.</p>';
+    });
+})();
+</script>
 </body>
 </html>

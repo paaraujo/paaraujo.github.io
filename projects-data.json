@@ -1,0 +1,15 @@
+[
+  {
+    "slug":         "example-project",
+    "title":        "Project Title",
+    "summary":      "A one- or two-sentence description of the project.",
+    "description":  "",
+    "start_year":   null,
+    "end_year":     null,
+    "featured_img": "featured.png",
+    "external_url": null,
+    "paper_url":    null,
+    "code_url":     null,
+    "tags":         []
+  }
+]

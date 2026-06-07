@@ -1,0 +1,15 @@
+[
+  {
+    "slug":         "example-course",
+    "title":        "Course Title",
+    "code":         "ELEC 999",
+    "term":         "Fall 2026",
+    "institution":  "Queen's University",
+    "role":         "Instructor",
+    "summary":      "A one- or two-sentence description of the course.",
+    "description":  "",
+    "featured_img": null,
+    "url":          null,
+    "syllabus_url": null
+  }
+]
