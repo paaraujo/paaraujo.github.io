@@ -44,6 +44,6 @@
     "bibtex": "@article{navinst-2025,\n  author = {Paulo Ricardo Marques de Araujo and Eslam Mounier and Qamar Bader and Emma Dawson and Shaza I. Kaoud Abdelaziz and Ahmed Zekry and Mohamed Elhabiby and Aboelmagd Noureldin},\n  title = {The NavINST Dataset for Multi-Sensor Autonomous Navigation},\n  journal = {IEEE Access},\n  year = {2025}\n}",
     "venue": "IEEE Access",
     "pub_type": "journal",
-    "video_url": "publication/navinst-2025/indoor_garage.mp4"
+    "video_url": "/publication/navinst-2025/indoor_garage.mp4"
   }
 ]
