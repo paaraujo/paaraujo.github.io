@@ -52,7 +52,7 @@ def _video_embed(url):
         vid = yt.group(1)
         src = f'https://www.youtube-nocookie.com/embed/{vid}'
         return (
-            '<div class="pub-video mt-4 mb-4" style="max-width:720px;">'
+            '<div class="pub-video article-container mt-4 mb-4">'
             '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">'
             f'<iframe src="{src}" style="position:absolute;top:0;left:0;width:100%;height:100%;"'
             ' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;'
@@ -63,7 +63,7 @@ def _video_embed(url):
         vid = vm.group(1)
         src = f'https://player.vimeo.com/video/{vid}'
         return (
-            '<div class="pub-video mt-4 mb-4" style="max-width:720px;">'
+            '<div class="pub-video article-container mt-4 mb-4">'
             '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">'
             f'<iframe src="{src}" style="position:absolute;top:0;left:0;width:100%;height:100%;"'
             ' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
@@ -72,7 +72,7 @@ def _video_embed(url):
     else:
         # local file or direct URL
         return (
-            '<div class="pub-video mt-4 mb-4" style="max-width:720px;">'
+            '<div class="pub-video article-container mt-4 mb-4">'
             f'<video controls style="width:100%;">'
             f'<source src="{url}" type="video/mp4">'
             'Your browser does not support the video tag.'
@@ -225,11 +225,13 @@ def generate_page(pub, force=False):
     # ── 11. Video ────────────────────────────────────────────────────────────────
     if video_url:
         video_html = _video_embed(video_url)
-        # Insert after featured-image-wrapper (or after btn-links if no image)
+        # Insert AFTER the featured-image-wrapper (between its closing divs and
+        # the article-container), so the order is: image → video → content.
+        # For pages without a featured image, insert at the top of the container.
         if 'article-header article-container featured-image-wrapper' in html:
             html = re.sub(
-                r'(</div>\n</div>\n\n\n\n\s*<div class="article-container">)',
-                video_html + r'\1',
+                r'(</div>\n</div>\n\n\n\n)(\s*<div class="article-container">)',
+                lambda m: m.group(1) + video_html + m.group(2),
                 html, count=1
             )
         else:
