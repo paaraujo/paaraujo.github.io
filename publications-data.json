@@ -218,5 +218,26 @@
     "venue": "Robotics and Computer-Integrated Manufacturing",
     "pub_type": "journal",
     "video_url": null
+  },
+  {
+    "slug": "rcim-2020",
+    "title": "In-process machine vision monitoring of tool wear for Cyber-Physical Production Systems",
+    "authors": [
+      "Romulo Gonçalves Lins",
+      "Paulo Ricardo Marques de Araujo",
+      "Marcio Corazzim"
+    ],
+    "year": 2020,
+    "date_label": "February 2020",
+    "abstract": "The monitoring of tool wear in machining process is becoming a crucial element in the modern production systems to predict the tool lifespan, and consequently the ideal point to replace it, still remains a challenge up to now. On the other hand, Cyber-Physical Systems (CPSs) have attracted researchers in many areas, especially in manufacturing, and they are playing a key role in the integration of heterogeneous software and hardware components. In this paper, an in-process machine vision monitoring of tool wear is integrated into a production system based on the CPS approach. Thereby, a methodology of four phases is proposed, whose goal basically is to raise the requirements, validate the integration, develop the decentralized architecture and finally prove the efficiency, robustness, and capabilities that only cyber-physical systems can bring to a production system. The feasibility and effectiveness of the proposed monitoring system for in-process tool wear is validated in a CNC drilling machining process.",
+    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0736584519301838",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{rcim-2020,\n  author = {Romulo Gonçalves Lins and Paulo Ricardo Marques de Araujo and Marcio Corazzim},\n  title = {In-process machine vision monitoring of tool wear for Cyber-Physical Production Systems},\n  journal = {Robotics and Computer-Integrated Manufacturing},\n  year = {2020}\n}",
+    "venue": "Robotics and Computer-Integrated Manufacturing",
+    "pub_type": "journal",
+    "video_url": null
   }
 ]
