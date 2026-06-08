@@ -112,7 +112,7 @@
   },
   {
     "slug": "itsc-2023",
-    "title": "Continuous Action Learning Automata: A Strategy for Dynamic Optimization of Invariant Kalman Filter Covariances",
+    "title": "Robust Land Vehicle Positioning with Invariant Kalman Filters and Map-Based Corrections",
     "authors": [
       "Paulo Ricardo Marques de Araujo",
       "Aboelmagd Noureldin",
@@ -121,12 +121,12 @@
     "year": 2023,
     "date_label": "September 2023",
     "abstract": "This paper presents a system that integrates Invariant Extended Kalman Filters with onboard sensors and map-based corrections. The system combines multiple sensors, such as an Inertial Measurement Unit and a speedometer, to improve accuracy and robustness during gaps in the map. The proposed architecture takes into consideration the different nature of each measurement used during the update step, such as map-based measurements in the world-frame and speedometer measurements in the body-frame. The experimental evaluations were conducted in diverse driving conditions. The proposed system consistently outperformed traditional solutions based on extended Kalman filters, sustaining low relative translational errors during map outages.",
-    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10422638",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10422638/",
     "code_url": null,
     "featured_img": "featured.png",
     "thumb_webp": null,
     "large_webp": null,
-    "bibtex": "@inproceedings{itsc-2023,\n  author = {Paulo Ricardo Marques de Araujo and Aboelmagd Noureldin and Sidney Givigi},\n  title = {Continuous Action Learning Automata: A Strategy for Dynamic Optimization of Invariant Kalman Filter Covariances},\n  booktitle = {2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},\n  year = {2023}\n}",
+    "bibtex": "@inproceedings{itsc-2023,\n  author = {Paulo Ricardo Marques de Araujo and Aboelmagd Noureldin and Sidney Givigi},\n  title = {Robust Land Vehicle Positioning with Invariant Kalman Filters and Map-Based Corrections},\n  booktitle = {2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},\n  year = {2023}\n}",
     "venue": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
     "pub_type": "conference",
     "video_url": null
