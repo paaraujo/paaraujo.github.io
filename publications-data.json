@@ -63,8 +63,29 @@
     "featured_img": "featured.png",
     "thumb_webp": null,
     "large_webp": null,
-    "bibtex": "@article{smartmobility-2024,\n  author = {Paulo Ricardo Marques de Araujo and Eslam Mounier and Emma Dawson and Aboelmagd Noureldin},\n  title = {Smart Mobility: Leveraging Perception Sensors for Map-Based Navigation in Autonomous Vehicles},\n  journal = {IEEE Access},\n  year = {2024}\n}",
-    "venue": " 2024 IEEE International Conference on Smart Mobility (SM)",
+    "bibtex": "@article{smartmobility-2024,\n  author = {Paulo Ricardo Marques de Araujo and Eslam Mounier and Emma Dawson and Aboelmagd Noureldin},\n  title = {Smart Mobility: Leveraging Perception Sensors for Map-Based Navigation in Autonomous Vehicles},\n  booktitle = {2024 IEEE International Conference on Smart Mobility (SM)},\n  year = {2024}\n}",
+    "venue": "2024 IEEE International Conference on Smart Mobility (SM)",
+    "pub_type": "conference",
+    "video_url": null
+  },
+  {
+    "slug": "cala-2024",
+    "title": "Continuous Action Learning Automata: A Strategy for Dynamic Optimization of Invariant Kalman Filter Covariances",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Aboelmagd Noureldin",
+      "Sidney Givigi"
+    ],
+    "year": 2024,
+    "date_label": "August 2024",
+    "abstract": "Accurate state estimation in autonomous vehicle navigation heavily relies on the precise tuning of Kalman filter covariance matrices. This paper introduces a novel application of Continuous Action Learning Automata (CALA) for the dynamic optimization of the measurement covariance matrix in a Left-Invariant Extended Kalman Filter (LIEKF). The proposed method leverages CALA’s reinforcement learning capabilities to fine-tune the filter parameters in response to environmental feedback adaptively. Integrating CALA with LIEKF, especially when augmented with Global Navigation Satellite System (GNSS) corrections, enhances the filter’s robustness and reliability in urban navigation tasks. Experimental results demonstrate that the CALA-enhanced LIEKF significantly outperforms traditional static methods, achieving lower mean absolute errors and improved accuracy during GNSS outages.",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10667230",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{cala-2024,\n  author = {Paulo Ricardo Marques de Araujo and Aboelmagd Noureldin and Sidney Givigi},\n  title = {Continuous Action Learning Automata: A Strategy for Dynamic Optimization of Invariant Kalman Filter Covariances},\n  booktitle = {2024 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)},\n  year = {2024}\n}",
+    "venue": " 2024 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)",
     "pub_type": "conference",
     "video_url": null
   }
