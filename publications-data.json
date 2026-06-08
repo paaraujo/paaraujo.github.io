@@ -198,5 +198,25 @@
     "venue": "35th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2022)",
     "pub_type": "conference",
     "video_url": null
+  },
+  {
+    "slug": "rcim-2021",
+    "title": "Cloud-based approach for automatic CNC workpiece origin localization based on image analysis",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Romulo Gonçalves Lins"
+    ],
+    "year": 2021,
+    "date_label": "April 2021",
+    "abstract": "Computer vision applications in the industry have been a constant field of research in academia. Industrial daily challenges such as quality inspection, object detection, and measurement are examples of situations where some automation could be done by using computer vision techniques. In this paper, a cloud-based approach of an automatic system based on stereo vision and image analysis has been developed to automate a daily routine present in machining companies: workpiece referencing. The proposed architecture uses two cameras mounted in the spindle of a machining center. All images are processed in custom software, running on the cloud, to return the position of the Workpiece Coordinate System (WCS) directly to the Computer Numerical Control (CNC) machine controller. Experimental results validate the application of the proposed architecture in a real machining process machine.",
+    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0736584520303008",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{rcim-2021,\n  author = {Paulo Ricardo Marques de Araujo and Romulo Gonçalves Lins},\n  title = {Cloud-based approach for automatic CNC workpiece origin localization based on image analysis},\n  journal = {Robotics and Computer-Integrated Manufacturing},\n  year = {2021}\n}",
+    "venue": "Robotics and Computer-Integrated Manufacturing",
+    "pub_type": "journal",
+    "video_url": null
   }
 ]
