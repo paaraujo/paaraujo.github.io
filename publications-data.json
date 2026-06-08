@@ -175,5 +175,28 @@
     "venue": "IEEE Transactions on Intelligent Vehicles",
     "pub_type": "journal",
     "video_url": null
+  },
+  {
+    "slug": "ion-2022",
+    "title": "Improving Land Vehicle Navigation: A Study on RIDR and Kalman Filters",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Emma Dawson",
+      "Mohamed Elhabiby",
+      "Sidney Givigi",
+      "Aboelmagd Noureldin"
+    ],
+    "year": 2022,
+    "date_label": "September 2022",
+    "abstract": "Invariant Kalman filters have emerged in recent years, introducing group theory to the well-established Kalman Filter theory. The invariant framework holds new possibilities and benefits related to stability and guaranteed convergence of the integrated solution. However, practical investigation using real land vehicle navigation scenarios is still latent. Therefore, the primary goal of this work is to present various analysis of Invariant Kalman Filters compared to Extended Kalman Filters (EKFs) using real data collected in different environments under various conditions. Given the same inputs and initial parameters across three different trajectories, it was found that invariant filters are more robust to a wider range of scenarios than EKFs, potentially indicating more generalizable and stable models when confronted with GNSS outages. Discussions about the applicability of bias estimation within the invariant filter framework are also presented. ",
+    "paper_url": "https://www.ion.org/publications/abstract.cfm?articleID=18472",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@inproceedings{ion-2022,\n  author = {Paulo Ricardo Marques de Araujo and Emma Dawson and Mohamed Elhabiby and Sidney Givigi and Aboelmagd Noureldin},\n  title = {Improving Land Vehicle Navigation: A Study on RIDR and Kalman Filters},\n  booktitle = {35th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2022)},\n  year = {2022}\n}",
+    "venue": "35th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2022)",
+    "pub_type": "conference",
+    "video_url": null
   }
 ]
