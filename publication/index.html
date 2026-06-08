@@ -757,42 +757,6 @@
         <div class="col-auto">
           <select class="pub-filters form-control form-control-sm" data-filter-group="year">
             <option value="*">Date</option>
-            
-            
-            
-            <option value=".year-2026">
-              2026
-            </option>
-            
-            <option value=".year-2025">
-              2025
-            </option>
-            
-            <option value=".year-2024">
-              2024
-            </option>
-            
-            <option value=".year-2023">
-              2023
-            </option>
-            
-            <option value=".year-2022">
-              2022
-            </option>
-            
-            <option value=".year-2021">
-              2021
-            </option>
-            
-            <option value=".year-2020">
-              2020
-            </option>
-            
-            <option value=".year-2019">
-              2019
-            </option>
-            
-            
           </select>
         </div>
       </div>
@@ -970,6 +934,22 @@
     });
 
     container.appendChild(fragment);
+
+    // Populate year filter dynamically from data
+    var years = [];
+    pubs.forEach(function(p) {
+      if (p.year && years.indexOf(p.year) === -1) years.push(p.year);
+    });
+    years.sort(function(a, b) { return b - a; });
+    var yearSel = document.querySelector('[data-filter-group="year"]');
+    if (yearSel) {
+      years.forEach(function(y) {
+        var opt = document.createElement('option');
+        opt.value = '.year-' + y;
+        opt.textContent = y;
+        yearSel.appendChild(opt);
+      });
+    }
 
     // Notify Isotope about the new items
     if (window.jQuery && jQuery('#container-publications').data('isotope')) {
