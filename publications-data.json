@@ -45,5 +45,27 @@
     "venue": "IEEE Access",
     "pub_type": "journal",
     "video_url": "/publication/navinst-2025/indoor_garage.mp4"
+  },
+  {
+    "slug": "smartmobility-2024",
+    "title": "Smart Mobility: Leveraging Perception Sensors for Map-Based Navigation in Autonomous Vehicles",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Eslam Mounier",
+      "Emma Dawson",
+      "Aboelmagd Noureldin"
+    ],
+    "year": 2024,
+    "date_label": "September 2024",
+    "abstract": "In smart mobility, autonomous vehicles must navigate complex environments with high precision. This paper investigates using various perception sensors, specifically LiDAR and RADAR, for map registration to achieve reliable navigation solutions. We provide comprehensive background information on the importance of maps in autonomous navigation and the capabilities of the selected sensors. We illustrate how registering LiDAR and RADAR data to offline maps enhances navigation accuracy and reliability. Our study highlights these sensors’ practical applications in improving autonomous vehicle navigation systems, contributing to safer and more efficient smart mobility solutions.",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10733404/",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{smartmobility-2024,\n  author = {Paulo Ricardo Marques de Araujo and Eslam Mounier and Emma Dawson and Aboelmagd Noureldin},\n  title = {Smart Mobility: Leveraging Perception Sensors for Map-Based Navigation in Autonomous Vehicles},\n  journal = {IEEE Access},\n  year = {2024}\n}",
+    "venue": " 2024 IEEE International Conference on Smart Mobility (SM)",
+    "pub_type": "conference",
+    "video_url": null
   }
 ]
