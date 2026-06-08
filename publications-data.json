@@ -259,5 +259,27 @@
     "venue": "The International Journal of Advanced Manufacturing Technology",
     "pub_type": "journal",
     "video_url": null
+  },
+  {
+    "slug": "tim-2019",
+    "title": "In-Process Tool Wear Measurement System Based on Image Analysis for CNC Drilling Machines",
+    "authors": [
+      "Romulo Gonçalves Lins",
+      "Bruno Guerreiro",
+      "Paulo Ricardo Marques de Araujo",
+      "Robert Schmitt"      
+    ],
+    "year": 2019,
+    "date_label": "December 2019",
+    "abstract": "Tool condition monitoring (TCM) has been a constant field of research. Conventionally, some sensors are installed at specific parts of the machine, and by using the signal-processing techniques, the tool wear is estimated. In this article, a direct system based on image analysis has been developed to automate the in-process tool wear measurement. The method uses only a single camera installed inside the machine and a tree-stage measurement process composed of image treatment, image comparison, and wear measurement. Experimental results show that the detection of similar images has a success index rate (SIR) equal to 98.89%, whereas the measurement error of the average flank wear and the maximum flank wear is estimated to be 3.57% and 2.92%, respectively.",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/8939324",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{tim-2019,\n  author = {Romulo Gonçalves Lins and Bruno Guerreiro and Paulo Ricardo Marques de Araujo and Robert Schmitt},\n  title = {In-Process Tool Wear Measurement System Based on Image Analysis for CNC Drilling Machines},\n  journal = {IEEE Transactions on Instrumentation and Measurement},\n  year = {2019}\n}",
+    "venue": "IEEE Transactions on Instrumentation and Measurement",
+    "pub_type": "journal",
+    "video_url": null
   }
 ]
