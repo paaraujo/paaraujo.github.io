@@ -239,5 +239,25 @@
     "venue": "Robotics and Computer-Integrated Manufacturing",
     "pub_type": "journal",
     "video_url": null
+  },
+  {
+    "slug": "ijamt-2019",
+    "title": "Computer vision system for workpiece referencing in three-axis machining centers",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Romulo Gonçalves Lins"
+    ],
+    "year": 2019,
+    "date_label": "December 2019",
+    "abstract": "Computer vision applications in the industry have been a constant field of research in the academic community. Industrial daily challenges such as object detection, measurement, and quality inspection are examples of situations where some automation could be employed using such techniques. In this paper, a system based on stereo vision and image analysis has been developed to automate a habitual activity present in all machining companies: workpiece referencing in three-axis machining centers. The proposed vision system uses two cameras mounted in the spindle of the machining center to acquire images. All images are processed in custom software to return the position of the workpiece coordinate to the machining worker. Experimental results validate the application of the proposed system in a real CNC machining process.",
+    "paper_url": "https://link.springer.com/article/10.1007/s00170-019-04626-w",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{ijamt-2019,\n  author = {Paulo Ricardo Marques de Araujo and Romulo Gonçalves Lins},\n  title = {Computer vision system for workpiece referencing in three-axis machining centers},\n  journal = {The International Journal of Advanced Manufacturing Technology},\n  year = {2019}\n}",
+    "venue": "The International Journal of Advanced Manufacturing Technology",
+    "pub_type": "journal",
+    "video_url": null
   }
 ]
