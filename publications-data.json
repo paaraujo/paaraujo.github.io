@@ -88,5 +88,26 @@
     "venue": " 2024 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)",
     "pub_type": "conference",
     "video_url": null
+  },
+  {
+    "slug": "radars-2024",
+    "title": "Toward Land Vehicle Ego-Velocity Estimation Using Deep Learning and Automotive Radars",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Aboelmagd Noureldin",
+      "Sidney Givigi"
+    ],
+    "year": 2024,
+    "date_label": "April 2024",
+    "abstract": "This paper presents a deep learning framework for the estimation of land vehicle ego-velocity using Frequency Modulated Continuous Wave (FMCW) automotive radars, addressing the challenges of data sparsity and noise without the need for extrinsic radar calibration. By structuring radar scans into image-based and voxel-based networks, our approach demonstrates robust ego-velocity estimation across multiple sensor configurations and orientations. Experimental results from three distinct datasets—RadarScenes, NavINST, and MSC-RAD4R—validate the framework’s effectiveness, showing superior performance over traditional methods. The models’ adaptability to various sensor specifications and their computational efficiency highlight their potential for real-time applications. We made our implementation open-source at: https://github.com/paaraujo/deep-ego-velocity.",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10506480",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{radars-2024,\n  author = {Paulo Ricardo Marques de Araujo and Aboelmagd Noureldin and Sidney Givigi},\n  title = {Toward Land Vehicle Ego-Velocity Estimation Using Deep Learning and Automotive Radars},\n  journal = {IEEE Transactions on Radar Systems},\n  year = {2024}\n}",
+    "venue": "IEEE Transactions on Radar Systems",
+    "pub_type": "journal",
+    "video_url": null
   }
 ]
