@@ -130,5 +130,28 @@
     "venue": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
     "pub_type": "conference",
     "video_url": null
+  },
+  {
+    "slug": "ion-2023",
+    "title": "Improving Land Vehicle Navigation: A Study on RIDR and Kalman Filters",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Eslam Mounier",
+      "Mohamed Elhabiby",
+      "Sidney Givigi",
+      "Aboelmagd Noureldin"
+    ],
+    "year": 2023,
+    "date_label": "September 2023",
+    "abstract": "This paper investigates RIDR (Radar Inertial Dead Reckoning), a novel positioning system using gyroscopes and radar-based forward speed estimation. It presents a formulation for vector space Kalman filters and compares RIDR with INS and RISS. An error state Kalman filter is proposed for precise position and attitude corrections. Experimental validation in diverse urban environments demonstrates the promising performance of RIDR, reinforcing its viability as a robust alternative to IMU-based algorithms. This research highlights challenges and opportunities for future advancements in the field, paving the way for improved autonomous vehicle navigation and control systems.",
+    "paper_url": "https://www.ion.org/publications/abstract.cfm?articleID=19212",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@inproceedings{ion-2023,\n  author = {Paulo Ricardo Marques de Araujo and Eslam Mounier and Mohamed Elhabiby and Sidney Givigi and Aboelmagd Noureldin},\n  title = {Improving Land Vehicle Navigation: A Study on RIDR and Kalman Filters},\n  booktitle = {36th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2023)},\n  year = {2023}\n}",
+    "venue": "36th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2023)",
+    "pub_type": "conference",
+    "video_url": null
   }
 ]
