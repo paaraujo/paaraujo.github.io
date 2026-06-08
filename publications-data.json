@@ -153,5 +153,27 @@
     "venue": "36th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2023)",
     "pub_type": "conference",
     "video_url": null
+  },
+  {
+    "slug": "tiv-2023",
+    "title": "A Novel Method for Land Vehicle Positioning: Invariant Kalman Filters and Deep-Learning-Based Radar Speed Estimation",
+    "authors": [
+      "Paulo Ricardo Marques de Araujo",
+      "Mohamed Elhabiby",
+      "Aboelmagd Noureldin",
+      "Sidney Givigi"
+    ],
+    "year": 2023,
+    "date_label": "June 2023",
+    "abstract": "Autonomous and intelligent vehicles are multi-sensor systems operating in various environments and conditions. Due to their characteristics, inertial measurement units (IMUs) are typically the core component of such systems. However, these sensors rapidly accumulate errors due to biases and noise, degrading the positioning solution. Therefore, this article presents a positioning solution that only uses three gyroscopes and one radar. The proposed method was tested using low-cost sensors in different scenarios, such as open-sky, urban and indoor areas. The key components of the method are the invariant Kalman filters and the use of deep neural networks to estimate the forward speed of the car using the radar readings. The method was tested on a custom dataset, and our integrated solution accurately estimates the vehicle's position, velocity, and orientation. We achieved, on average, a 1.45% translational error in the tested scenarios, making the proposed method a robust alternative to current IMU-based positioning methods.",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10158411",
+    "code_url": null,
+    "featured_img": "featured.png",
+    "thumb_webp": null,
+    "large_webp": null,
+    "bibtex": "@article{tiv-2023,\n  author = {Paulo Ricardo Marques de Araujo and Mohamed Elhabiby and Aboelmagd Noureldin and Sidney Givigi},\n  title = {A Novel Method for Land Vehicle Positioning: Invariant Kalman Filters and Deep-Learning-Based Radar Speed Estimation},\n  journal = {IEEE Transactions on Intelligent Vehicles},\n  year = {2023}\n}",
+    "venue": "IEEE Transactions on Intelligent Vehicles",
+    "pub_type": "journal",
+    "video_url": null
   }
 ]
